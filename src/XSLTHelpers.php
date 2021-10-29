@@ -1,6 +1,6 @@
 <?php
 
-namespace Webneex\XSDSAT;
+namespace Webneex\XSLTSAT;
 
 use DOMDocument;
 use XSLTProcessor;
