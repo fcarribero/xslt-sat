@@ -3,6 +3,7 @@
 namespace Webneex\XSLTSAT;
 
 use DOMDocument;
+use Exception;
 use XSLTProcessor;
 
 class XSLTHelpers {
@@ -14,8 +15,11 @@ class XSLTHelpers {
         $style = new DOMDocument;
         $style->load($schema, LIBXML_NOCDATA);
         $xslt = new XSLTProcessor;
-        $xslt->importStylesheet($style);
-
+        $prev_config = libxml_use_internal_errors(true);
+        if (!@$xslt->importStylesheet($style)) {
+            throw new Exception('Ocurrió un error al importar Stylesheet.');
+        }
+        libxml_use_internal_errors($prev_config);
         return $xslt->transformToXML($dom);
     }
 
