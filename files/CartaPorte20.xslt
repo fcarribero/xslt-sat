@@ -228,7 +228,7 @@
 		</xsl:call-template>
 	</xsl:template>
 	<!--  Iniciamos el manejo de los elementos hijo en la secuencia GuiasIdentificacion-->
-	<xsl:template match="cartaporte20:GuiasIdentificacion--">
+	<xsl:template match="cartaporte20:GuiasIdentificacion">
 		<!--  Iniciamos el manejo de los nodos dependientes -->
 		<xsl:call-template name="Requerido">
 			<xsl:with-param name="valor" select="./@NumeroGuiaIdentificacion"/>
@@ -275,9 +275,9 @@
 			<xsl:with-param name="valor" select="./@NumPiezas"/>
 		</xsl:call-template>
 	</xsl:template>
-	<!--  Iniciamos el manejo de los elementos hijo en la secuencia AutotransporteFederal-->
+	<!--  Iniciamos el manejo de los elementos hijo en la secuencia Autotransporte-->
 	<xsl:template match="cartaporte20:Autotransporte">
-		<!--Manejador de nodos tipo cartaporte20:AutotransporteFederal-->
+		<!--Manejador de nodos tipo cartaporte20:Autotransporte-->
 		<xsl:call-template name="Requerido">
 			<xsl:with-param name="valor" select="./@PermSCT"/>
 		</xsl:call-template>
