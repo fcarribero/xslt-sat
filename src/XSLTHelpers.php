@@ -10,10 +10,13 @@ class XSLTHelpers {
 
     public static function transformDom($dom, $schema) {
 
-        if (substr($schema, 0, 2) == './') $schema = __DIR__ . '/../files/' . substr($schema, 2);
+        if (substr($schema, 0, 2) == './') $schema_path = __DIR__ . '/../files/' . substr($schema, 2);
+        else $schema_path = $schema;
+
+        if (!file_exists($schema_path)) throw new Exception("Schema {$schema} no existe");
 
         $style = new DOMDocument;
-        $style->load($schema, LIBXML_NOCDATA);
+        $style->load($schema_path, LIBXML_NOCDATA);
         $xslt = new XSLTProcessor;
         $prev_config = libxml_use_internal_errors(true);
         if (!@$xslt->importStylesheet($style)) {
