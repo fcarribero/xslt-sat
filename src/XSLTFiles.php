@@ -1,0 +1,82 @@
+<?php
+
+namespace Webneex\XSLTSAT;
+
+class XSLTFiles {
+
+    const ACREDITAMIENTOIEPS10 = './AcreditamientoIEPS10.xslt';
+    const CARTAPORTE = './CartaPorte.xslt';
+    const CARTAPORTE20 = './CartaPorte20.xslt';
+    const COMERCIOEXTERIOR10 = './ComercioExterior10.xslt';
+    const COMERCIOEXTERIOR11 = './ComercioExterior11.xslt';
+    const GASTOSHIDROCARBUROS10 = './GastosHidrocarburos10.xslt';
+    const IDENTIFICACIONRECURSOGASTOS = './IdentificacionRecursoGastos.xslt';
+    const INGRESOSHIDROCARBUROS = './IngresosHidrocarburos.xslt';
+    const PAGOS10 = './Pagos10.xslt';
+    const PAGOS20 = './Pagos20.xslt';
+    const SERVICIOSPLATAFORMASTECNOLOGICAS10 = './ServiciosPlataformasTecnologicas10.xslt';
+    const TURISTAPASAJEROEXTRANJERO = './TuristaPasajeroExtranjero.xslt';
+    const AEROLINEAS = './aerolineas.xslt';
+    const ARRENDAMIENTOENFIDEICOMISO = './arrendamientoenfideicomiso.xslt';
+    const CADENAORIGINAL_2_0 = './cadenaoriginal_2_0.xslt';
+    const CADENAORIGINAL_2_2 = './cadenaoriginal_2_2.xslt';
+    const CADENAORIGINAL_3_0 = './cadenaoriginal_3_0.xslt';
+    const CADENAORIGINAL_3_2 = './cadenaoriginal_3_2.xslt';
+    const CADENAORIGINAL_3_2_FLAT = './cadenaoriginal_3_2_flat.xslt';
+    const CADENAORIGINAL_3_3 = './cadenaoriginal_3_3.xslt';
+    const CADENAORIGINAL_3_3_FLAT = './cadenaoriginal_3_3_flat.xslt';
+    const CADENAORIGINAL_4_0 = './cadenaoriginal_4_0.xslt';
+    const CADENAORIGINAL_TFD_1_0 = './cadenaoriginal_TFD_1_0.xslt';
+    const CADENAORIGINAL_TFD_1_1 = './cadenaoriginal_TFD_1_1.xslt';
+    const CERTIFICADODEDESTRUCCION = './certificadodedestruccion.xslt';
+    const CFDIREGISTROFISCAL = './cfdiregistrofiscal.xslt';
+    const CONSUMODECOMBUSTIBLES11 = './consumodeCombustibles11.xslt';
+    const CONSUMODECOMBUSTIBLES = './consumodecombustibles.xslt';
+    const DETALLISTA = './detallista.xslt';
+    const DIVIDENDOS = './dividendos.xslt';
+    const DIVISAS = './divisas.xslt';
+    const DONAT = './donat.xslt';
+    const DONAT11 = './donat11.xslt';
+    const ECB = './ecb.xslt';
+    const ECC = './ecc.xslt';
+    const ECC11 = './ecc11.xslt';
+    const ECC12 = './ecc12.xslt';
+    const ENAJENACIONDEACCIONES = './enajenaciondeacciones.xslt';
+    const FIDEICOMISONOEMPRESARIAL = './fideicomisonoempresarial.xslt';
+    const IEDU = './iedu.xslt';
+    const IMPLOCAL = './implocal.xslt';
+    const INE10 = './ine10.xslt';
+    const INE11 = './ine11.xslt';
+    const INTERESES = './intereses.xslt';
+    const INTERESESHIPOTECARIOS = './intereseshipotecarios.xslt';
+    const LEYENDASFISC = './leyendasFisc.xslt';
+    const NOMINA = './nomina.xslt';
+    const NOMINA11 = './nomina11.xslt';
+    const NOMINA12 = './nomina12.xslt';
+    const NOTARIOSPUBLICOS = './notariospublicos.xslt';
+    const OBRASARTEANTIGUEDADES = './obrasarteantiguedades.xslt';
+    const OPERACIONESCONDERIVADOS = './operacionesconderivados.xslt';
+    const PAGOENESPECIE = './pagoenespecie.xslt';
+    const PAGOSAEXTRANJEROS = './pagosaextranjeros.xslt';
+    const PFIC = './pfic.xslt';
+    const PLANESDERETIRO = './planesderetiro.xslt';
+    const PLANESDERETIRO11 = './planesderetiro11.xslt';
+    const PREMIOS = './premios.xslt';
+    const PSGCFDSP = './psgcfdsp.xslt';
+    const PSGECFD = './psgecfd.xslt';
+    const RENOVACIONYSUSTITUCIONVEHICULOS = './renovacionysustitucionvehiculos.xslt';
+    const RETENCIONES = './retenciones.xslt';
+    const RETENCIONES_FLAT = './retenciones_flat.xslt';
+    const RETENCIONPAGOV2 = './retencionpagov2.xslt';
+    const SECTORFINANCIERO = './sectorfinanciero.xslt';
+    const SERVICIOPARCIALCONSTRUCCION = './servicioparcialconstruccion.xslt';
+    const SPEI = './spei.xslt';
+    const TERCEROS = './terceros.xslt';
+    const TERCEROS11 = './terceros11.xslt';
+    const UTILERIAS = './utilerias.xslt';
+    const VALESDEDESPENSA = './valesdedespensa.xslt';
+    const VEHICULOUSADO = './vehiculousado.xslt';
+    const VENTAVEHICULOS = './ventavehiculos.xslt';
+    const VENTAVEHICULOS11 = './ventavehiculos11.xslt';
+
+}
