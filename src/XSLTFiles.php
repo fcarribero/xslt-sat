@@ -7,6 +7,7 @@ class XSLTFiles {
     const ACREDITAMIENTOIEPS10 = './AcreditamientoIEPS10.xslt';
     const CARTAPORTE = './CartaPorte.xslt';
     const CARTAPORTE20 = './CartaPorte20.xslt';
+    const CARTAPORTE30 = './CartaPorte30.xslt';
     const COMERCIOEXTERIOR10 = './ComercioExterior10.xslt';
     const COMERCIOEXTERIOR11 = './ComercioExterior11.xslt';
     const GASTOSHIDROCARBUROS10 = './GastosHidrocarburos10.xslt';
